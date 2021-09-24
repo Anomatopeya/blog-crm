@@ -28,6 +28,6 @@ class TodolistServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Aldwyn\BlogCrm\TodolistController');
+//        $this->app->make('Aldwyn\BlogCrm\TodolistController');
     }
 }
