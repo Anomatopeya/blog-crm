@@ -1,0 +1,12 @@
+{
+    "name": "aldwyn/blog-crm",
+    "description": "Laravel blog crm on Backpack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anomatopeya",
+            "email": "anomatopeya@gmail.com"
+        }
+    ],
+    "require": {}
+}
