@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": ">=7.4",
-        "backpack/crud": "4.1.*"
+        "backpack/crud": "4.1.*",
+        "spatie/laravel-translatable": "^4.6"
     },
     "require-dev": {
         "backpack/generators": "^3.1"
@@ -25,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aldwyn\\BlogCrm\\": "src/"
+            "Aldwyn\\BlogCrm\\": "src"
         }
     }
 }
