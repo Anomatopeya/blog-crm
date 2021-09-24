@@ -1,0 +1,11 @@
+{
+    "name": "aldwyn/blog-crm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anomatopeya",
+            "email": "anomatopeya@gmail.com"
+        }
+    ],
+    "require": {}
+}
