@@ -4,12 +4,11 @@
 namespace Aldwyn\BlogCrm\App\Models;
 
 
-use App\Traits\ClearsResponseCache;
 use Illuminate\Database\Eloquent\Model;
 
 class BaseModel extends Model
 {
-    use ClearsResponseCache;
+
 
     public function setSlugAttribute($value)
     {

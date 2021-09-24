@@ -2,8 +2,8 @@
 
 namespace Aldwyn\BlogCrm\App\Http\Controllers\Admin;
 
-use App\Http\Requests\ArticleCategoryRequest;
-use App\Models\ArticleCategory;
+use Aldwyn\BlogCrm\App\Http\Requests\ArticleCategoryRequest;
+use Aldwyn\BlogCrm\App\Models\ArticleCategory;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Http\Controllers\Operations\ReorderOperation;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;

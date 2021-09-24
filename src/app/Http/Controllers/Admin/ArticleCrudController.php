@@ -2,8 +2,8 @@
 
 namespace Aldwyn\BlogCrm\App\Http\Controllers\Admin;
 
-use App\Http\Requests\ArticleRequest;
-use App\Models\ArticleCategory;
+use Aldwyn\BlogCrm\App\Http\Requests\ArticleRequest;
+use Aldwyn\BlogCrm\App\Models\ArticleCategory;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanel;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;

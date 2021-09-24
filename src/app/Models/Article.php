@@ -4,6 +4,7 @@ namespace Aldwyn\BlogCrm\App\Models;
 
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Backpack\CRUD\app\Models\Traits\SpatieTranslatable\HasTranslations;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -12,7 +13,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Support\Str;
 
 /**
- * App\Models\Article
+ * Aldwyn\BlogCrm\App\Models\Article
  *
  * @property int $id
  * @property int $status
@@ -32,13 +33,13 @@ use Illuminate\Support\Str;
  * @property string|null $deleted_at
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- * @property-read \App\Models\ArticleCategory $articleCategory
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\ArticleCategory[] $categories
+ * @property-read ArticleCategory $articleCategory
+ * @property-read Collection|\App\Models\ArticleCategory[] $categories
  * @property-read int|null $categories_count
- * @property-read \App\Models\ArticleCategory $category
+ * @property-read ArticleCategory $category
  * @property-read array $translations
- * @property-read \App\Models\ArticleCategory|null $parent
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Tag[] $tags
+ * @property-read ArticleCategory|null $parent
+ * @property-read Collection|Tag[] $tags
  * @property-read int|null $tags_count
  * @method static \Database\Factories\ArticleFactory factory(...$parameters)
  * @method static \Illuminate\Database\Eloquent\Builder|Article newModelQuery()

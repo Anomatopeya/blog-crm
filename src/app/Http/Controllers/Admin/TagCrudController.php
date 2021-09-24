@@ -2,7 +2,7 @@
 
 namespace Aldwyn\BlogCrm\App\Http\Controllers\Admin;
 
-use App\Http\Requests\TagRequest;
+use Aldwyn\BlogCrm\App\Http\Requests\TagRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Http\Controllers\Operations\ReorderOperation;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
@@ -30,7 +30,7 @@ class TagCrudController extends CrudController
      */
     public function setup()
     {
-        CRUD::setModel(\App\Models\Tag::class);
+        CRUD::setModel(Aldwyn\BlogCrm\App\Models\Tag::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/tag');
         CRUD::setEntityNameStrings(_t('tag'), _t('tags'));
     }
